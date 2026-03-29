@@ -17,12 +17,13 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 300px;
+    max-width: 450px;
     margin: 1rem auto;
     padding: 1rem;
     background-color: #fff;
     border-radius: 1rem;
     color: #333;
+   
 }
 
 .form-control{
@@ -59,8 +60,34 @@ body{
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
+     margin-right: 2px;
 
 }
+#Btlimpar{
+      max-height: 50px;
+    padding: 0.6rem 1.2rem;
+    width: 200px;
+    color: #fff;
+    background-color: #333;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+     margin-right: 2px;
+
+}
+
+
+#multiplication-form input[type="submit"]:hover{
+   background-color:#414141;
+   border-color: black
+}
+#Btlimpar:hover{
+   background-color:#414141;
+   border-color: black
+}
+
+
 #multiplication-operations{
     display: flex;
     flex-direction: column;
