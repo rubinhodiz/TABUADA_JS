@@ -1,0 +1,201 @@
+{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    text-align: center;
+    padding: 2rem;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #db4444 0%, #3f24dd 98%);
+    color: white;
+}
+
+#multiplication-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    color: #333;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin: 0 1rem;
+}
+
+.form-control label{
+    margin-bottom: 0.8rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.form-control input{
+    margin-bottom: 1rem;
+    flex: 1;
+    padding: 0.6rem 0.4rem;
+    border: 1px solid #333;
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+#multiplication-form input[type="submit"]{
+    max-height: 50px;
+    padding: 0.6rem 1.2rem;
+    width: 200px;
+    color: #fff;
+    background-color: #333;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+
+
+
+
+/* CHAT GPT GEROU
+    Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+Body centralizado
+body {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+Container geral
+body {
+    flex-direction: column;
+}
+
+Título principal
+body > h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+Formulário
+form {
+    width: 100%;
+    max-width: 400px;
+
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    margin-bottom: 20px;
+}
+
+Inputs
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-control label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-control input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+Botão
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: #4facfe;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+Área da tabuada
+#multiplication-table {
+    width: 100%;
+    max-width: 400px;
+
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+Título da tabuada
+#multiplation-title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+Texto inicial
+#multiplication-operations p {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #777;
+}
+
+Linha da tabuada (AJUSTE PRINCIPAL AQUI)
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+Evita quebra estranha
+.operation, .result {
+    width: 50%;
+}
+
+Texto
+.operation {
+    text-align: left;
+    font-weight: bold;
+}
+
+.result {
+    text-align: right;
+    color: #4facfe;
+    font-weight: bold;
+}
+
+Alternância
+.row:nth-child(even) {
+    background: #f9f9f9;
+}
+
+*/
