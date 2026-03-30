@@ -39,7 +39,7 @@ const createTable = (number, multiplicatorNumber) => {
 
 
 //Eventos
-multiplicationForm.addEventListener("submit", (e) =>{
+multiplicationForm.addEventListener("submit", (e) =>{ //evento para pegar os dados digitados pelo usuario e aplicar a regra da calculadora
     e.preventDefault(); //pra não recarregar a pagina
 
     const multiplicationNumber = +numberInput.value; //pega do input acima o valor que o usuario digitou
@@ -52,7 +52,7 @@ multiplicationForm.addEventListener("submit", (e) =>{
 
 });
 
-//criando evento, ao clicar em LIMPAR ele resetar e apenas colocar a mensagem abaixo
+//criando evento, ao clicar em LIMPAR ele reseta o resultado da TABUADA e zera o NUMBER e apenas colocar a mensagem abaixo
 btlimpar.addEventListener("click", () => {
     numberInput.value = "";
     multiplicationTitle.innerText = "";
